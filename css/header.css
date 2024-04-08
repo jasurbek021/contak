@@ -1,0 +1,61 @@
+@import "./global.css";
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.menue-items {
+  margin-right: 3rem;
+}
+.menue-items li {
+  display: inline-block;
+}
+
+.menue-items li a {
+  padding: 2.5rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: var(--label-color);
+  transition: 0.3s;
+  &:hover {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+  }
+}
+.menue-contact {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.menue-contact__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.menue-contact__item p {
+  color: var(--label-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.menue-contact__item p span {
+  font-size: 1.8rem;
+  color: var(--text-black-color);
+  font-weight: 400;
+}
+.menue-contact__item i {
+  color: var(--primary-color);
+  text-align: center;
+  text-shadow: 0 2px 10px hsl(4, 77%, 90%);
+  font-size: 2rem;
+  margin-right: 1rem;
+  animation: callSize 1s cubic-bezier(0, 0, 0, 0) 0s infinite;
+  &:hover {
+    cursor: pointer;
+  }
+}
+

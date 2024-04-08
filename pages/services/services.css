@@ -1,0 +1,137 @@
+@import "../../css/global.css";
+
+.header {
+  background-image: url(./services-img/services-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 800px cover;
+  background-color: #f4f5f6;
+}
+.services-header {
+  margin-top: 7rem;
+}
+.services-header__title {
+  color: var(--text-black-color);
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 3.5rem;
+}
+.services-header__title span {
+  color: var(--text-light-color);
+}
+.services-header__page {
+  font-size: 7.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 9.3rem;
+}
+.services-header__subtitle {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--text-light-color);
+  line-height: 3rem;
+  margin-bottom: 10rem;
+}
+.main {
+  margin-top: 10rem;
+  background-image: url(services-img/bg-image.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.services-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-bottom: 10rem;
+}
+.services-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+}
+.services-card img {
+  width: 52rem;
+  height: 37.5rem;
+}
+.services-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.services-card__description__title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: var(--text-black-color);
+}
+.services-card__description__subtitle {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: var(--text-light-color);
+}
+.services-card__btn {
+  background-color: var(--title-white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  width: 200px;
+  padding: 2.3rem;
+  line-height: 0;
+}
+
+.services__contact {
+  background-image: url(./services-img/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.services__contact__container {
+  display: flex;
+  justify-content: end;
+  padding: 10rem 5rem;
+}
+.services__contact__form {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 0.5rem;
+}
+.services__contact__form h2 {
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-weight: 700;
+  align-items: center;
+  color: var(--text-black-color);
+}
+
+.services__contact__form label {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--text-black-color);
+}
+.services__contact__form__input {
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--input-color);
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--text-light-color);
+}
+.checkbox__box {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.checkbox {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+}

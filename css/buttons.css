@@ -1,0 +1,14 @@
+@import "./global.css";
+
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 1.6rem;
+  line-height: 5.2rem;
+  letter-spacing: 0.5px;
+  color: var(--title-white-color);
+  font-weight: 700;
+  padding: 0 9rem;
+}

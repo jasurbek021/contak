@@ -1,0 +1,280 @@
+@import "../../css/global.css";
+.header {
+  background: url(./contact-header-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: var(--card-bg-color);
+  margin-bottom: 12.1rem;
+}
+.nav-container {
+  margin-bottom: 8rem;
+}
+.page-name {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--label-color);
+  margin-bottom: 4rem;
+}
+.page-name span {
+  color: var(--page-color);
+}
+.contact-title {
+  color: var(--text-black-color);
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 7.2rem;
+  margin-bottom: 2.4rem;
+}
+.contact-form {
+  margin-bottom: 12rem;
+}
+.contact-subtitle {
+  color: var(--text-light-color);
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 20.9rem;
+  width: 600px;
+}
+.contact-main__form__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 1.3;
+  color: var(--text-black-color);
+}
+.contact-main__form__subtitle {
+  text-align: center;
+  color: var(--text-light-color);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.main-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 13.5rem;
+}
+.contact-main__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.form-left label,
+.form-right label {
+  display: block;
+  color: var(--label-color);
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.form-right {
+  display: flex;
+  flex-direction: column;
+}
+.contact-main__form__input {
+  padding: 1.8rem 2.1rem 1.8rem 1.6rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  background-color: var(--input-color);
+  border: none;
+  margin-bottom: 2.4rem;
+}
+.radio-label {
+  margin-bottom: 2.1rem;
+}
+.radio-box {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  gap: 2.4rem;
+}
+.radio-span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.radio-span span {
+  font-size: 1.6rem;
+  color: var(--text-black-color);
+}
+.radio-span input {
+  accent-color: var(--primary-color);
+}
+.message-label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--label-color);
+}
+.text-area {
+  border-radius: 5px;
+  font-size: 1.6rem;
+  background-color: var(--input-color);
+  border: none;
+  padding: 1rem;
+}
+.checkbox-contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+.message-input__box {
+  margin-bottom: 2.4rem;
+}
+textarea {
+  resize: none;
+}
+.checkbox-box {
+  display: flex;
+  gap: 0.5rem;
+}
+.checkbox-box input {
+  width: 16px;
+  height: 16px;
+  border: 2px;
+  accent-color: var(--primary-color);
+}
+.checkbox-box span {
+  font-size: 1.6rem;
+  color: var(--label-color);
+}
+.contact-btn {
+  width: 212px;
+  padding: 1.5rem 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.8rem;
+  background-color: var(--primary-color);
+}
+
+.offices {
+  background-color: #f4f5f6;
+}
+.officescontainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-bottom: 9.5rem;
+  padding-left: 34.5rem;
+  padding-right: 34.5rem;
+}
+
+.officescontainer-title {
+  margin-bottom: 2.4rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.27;
+  text-align: center;
+  color: #1e212c;
+}
+.officescontainer-text {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #787a80;
+  margin-bottom: 6rem;
+}
+.officescards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+.card {
+  width: 250px;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  color: #1e212c;
+  margin-bottom: 2.4rem;
+}
+.card-location {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+  width: 250px;
+  margin-bottom: 0.4rem;
+}
+.card-map {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #ff5a30;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.carditem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.carditem-span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #787a80;
+}
+.carditem-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+}
+.offices-img {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.officescontainer h2 {
+  margin-bottom: 4rem;
+}
+
+.offices__icons {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+}
+.icon {
+  font-size: 3.2rem;
+  color: #787a80;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.whatsup:hover {
+  color: #075e54;
+}
+.mesaanger:hover {
+  color: #00b2ff;
+}
+.facebook:hover {
+  color: #1877f2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.youtube:hover {
+  color: #ff0000;
+}
